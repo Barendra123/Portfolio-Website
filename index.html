@@ -1,325 +1,821 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barendra Biswal - React Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="logo">MyPortfolio</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+      <div class="logo">Barendra Biswal</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
     <section id="home" class="home">
-        <div class="intro-container">
-            <div class="photo-container">
-                <img src="./hacker.jpg" alt="Profile Photo" class="profile-photo">
-            </div>
-            <div class="intro">
-                <h1 style="color:#006eff; text-align: center;">Hi, I'm Barendra Biswal</h1>
-                <p>
-                    A passionate <strong>Full Stack Developer</strong> specializing in crafting efficient, scalable, and user-centric solutions. I enjoy solving complex problems and building modern web applications.
-                </p>
-                <p>
-                    With expertise in technologies like <span class="highlight">Java</span>, <span class="highlight">Spring Boot</span>,<span class="highlight"> JavaScript</span>, <span class="highlight">Angular</span>, <span class="highlight">ReactJS</span>, and <span class="highlight">MySQL</span>, I aim to create seamless digital experiences that empower users and businesses alike.
-                </p>
-                <div class="social-icons">
-                    <a href="https://github.com/Barendra123" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/barendra-biswal-584a182b1/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/barendra_biswal_/profilecard/?igsh=enZ1dzNsYjNja3I2" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/barendra.biswal.180?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="https://x.com/Bi2378Biswal?t=Nm_xX_fogsas_8Ac69XY2g&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
-                </div>
-                <div class="buttons">
-                    <a href="#projects" class="btn">View My Work</a>
-                    <a href="#contact" class="btn">Let's Collaborate</a>
-                    <a href="./resume/Barendra_Bsc_2021_7.9CGPA_Java Developer.pdf" download="Resume.pdf" class="btn">Download Resume</a>
-                </div>
-            </div>
+      <div class="intro-container">
+        <div class="photo-container">
+          <img
+            src="./hacker.jpg"
+            alt="Barendra Biswal - React Developer"
+            class="profile-photo"
+          />
         </div>
+        <div class="intro">
+          <h1 style="color: #006eff; text-align: center">
+            Hi, I'm Barendra Biswal
+          </h1>
+          <h2 style="text-align: center; color: #333; margin-bottom: 20px">
+            Senior React Developer
+          </h2>
+          <p>
+            Passionate <strong>React Developer</strong> with 3+ years of
+            professional experience building enterprise-grade web applications
+            and customer service platforms. Specialized in creating dynamic,
+            responsive user interfaces using
+            <span class="highlight">React.js</span>,
+            <span class="highlight">JavaScript ES6+</span>, and modern frontend
+            technologies. Expert in developing real-time applications with
+            <span class="highlight">WebSocket integration</span>, state
+            management solutions, and seamless API integrations. Proven track
+            record in delivering scalable, performance-optimized solutions for
+            banking and enterprise domains.
+          </p>
+          <div class="social-icons">
+            <a
+              href="https://github.com/Barendra123"
+              target="_blank"
+              aria-label="GitHub Profile"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/barendra-biswal-584a182b1/"
+              target="_blank"
+              aria-label="LinkedIn Profile"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/barendra_biswal_/profilecard/?igsh=enZ1dzNsYjNja3I2"
+              target="_blank"
+              aria-label="Instagram Profile"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/barendra.biswal.180?mibextid=ZbWKwL"
+              target="_blank"
+              aria-label="Facebook Profile"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://x.com/Bi2378Biswal?t=Nm_xX_fogsas_8Ac69XY2g&s=09"
+              target="_blank"
+              aria-label="Twitter Profile"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div class="buttons">
+            <a href="#projects" class="btn">View My Projects</a>
+            <a href="#contact" class="btn">Hire Me</a>
+            <a
+              href="./resume/Barendra_biswal.pdf"
+              download="Barendra_Biswal_Resume.pdf"
+              class="btn"
+            >
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
-    
 
     <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>I am a dedicated and results-driven Full Stack Developer with a strong academic foundation in Electronics and Communication Engineering and hands-on experience in Java Full Stack development. I specialize in crafting innovative, user-centric web applications that combine clean, responsive designs with efficient, scalable backend solutions. 
-    
-        My passion for technology drives me to continuously learn and adapt to emerging tools and trends. Whether solving complex coding challenges or collaborating within a team, I take pride in delivering high-quality solutions that align with business objectives. My goal is to contribute to impactful projects that enhance user experiences and drive growth.</p>
+      <h2>About Me</h2>
+      <p>
+        I am a dedicated React Developer with a strong foundation in modern
+        frontend development and full-stack engineering. With a Bachelor's
+        degree in Electronics and Communication Engineering and specialized
+        training in Java Full Stack development, I bring both technical depth
+        and practical experience to every project.
+      </p>
+      <p>
+        My expertise lies in crafting sophisticated React applications that
+        deliver exceptional user experiences while maintaining clean,
+        maintainable codebases. I excel at translating complex business
+        requirements into intuitive user interfaces, with particular strength in
+        real-time applications, state management, and performance optimization.
+      </p>
+      <p>
+        Currently based in Bangalore, I'm passionate about staying at the
+        forefront of React ecosystem developments, modern JavaScript practices,
+        and emerging frontend technologies. I thrive in collaborative
+        environments and am committed to writing code that not only works but is
+        scalable, testable, and follows industry best practices.
+      </p>
     </section>
 
-    <section id="testimonials">
-        <h2>Testimonials</h2>
-        <div class="testimonials-container">
-            <div class="testimonial">
-                <p class="quote">"Working with Barendra Biswal has been an absolute pleasure. Highly recommended!"</p>
-                <p class="author">- Client A</p>
-            </div>
-            <div class="testimonial">
-                <p class="quote">"An excellent professional who delivers quality work on time."</p>
-                <p class="author">- Client B</p>
-            </div>
-            <div class="testimonial">
-                <p class="quote">"Barendra consistently exceeded expectations with creative solutions and professionalism."</p>
-                <p class="author">- Client C</p>
-            </div>
+    <section id="experience">
+      <h2>Professional Experience</h2>
+      <div class="experience-timeline">
+        <div class="experience-item">
+          <div class="experience-period">2022 - Present</div>
+          <div class="experience-content">
+            <h3>Senior React Developer</h3>
+            <h4>Banking & Financial Services</h4>
+            <ul>
+              <li>
+                Developed and maintained sophisticated React applications for
+                banking CRM systems, serving thousands of daily active users
+              </li>
+              <li>
+                Implemented real-time features using WebSocket technology for
+                live customer interaction tracking
+              </li>
+              <li>
+                Integrated Genesys Contact Center platform with React frontend
+                for seamless call center operations
+              </li>
+              <li>
+                Optimized application performance resulting in 40% faster load
+                times and improved user satisfaction
+              </li>
+              <li>
+                Collaborated with cross-functional teams to deliver features
+                aligned with business objectives
+              </li>
+            </ul>
+          </div>
         </div>
-    </section>
-    
-    <section id="blog">
-        <h2>Blog</h2>
-        <article>
-            <h3>Embracing the Future: Latest Trends in Technology</h3>
-            <p>Discover how emerging technologies like AI, blockchain, and IoT are reshaping industries worldwide. In this post, I dive deep into the transformative potential of these innovations, exploring their real-world applications and how businesses can adapt to stay competitive.</p>
-            <a href="#">Read More</a>
-        </article>
-        <article>
-            <h3>The Art of Clean Code: Best Practices for Developers</h3>
-            <p>Writing clean, maintainable code is an essential skill for any developer. Learn the principles and techniques to structure your code for readability, scalability, and long-term efficiency in this insightful blog post.</p>
-            <a href="#">Read More</a>
-        </article>
-        <article>
-            <h3>React vs. Angular: Which Framework Should You Choose?</h3>
-            <p>Choosing the right frontend framework can make or break your project. In this blog, I compare React and Angular, highlighting their strengths, weaknesses, and ideal use cases to help you make an informed decision.</p>
-            <a href="#">Read More</a>
-        </article>
-        <article>
-            <h3>Mastering the Backend: A Beginner’s Guide to Spring Boot</h3>
-            <p>Get started with Spring Boot, the popular Java-based framework for creating robust backend systems. Learn the basics, explore key features, and find out how to build your first RESTful API with ease.</p>
-            <a href="#">Read More</a>
-        </article>
-    </section>
-    
-    
-    <section id="achievements">
-        <h2>Achievements</h2>
-        <p>Throughout my academic and professional journey, I have been fortunate to achieve several milestones that highlight my dedication, skills, and passion for technology. Here are a few key achievements:</p>
-        <ul>
-            <li><strong>Java Full Stack Development Certification:</strong> Successfully completed a comprehensive certification program that enhanced my expertise in front-end and back-end development, focusing on Java, Spring Boot, ReactJS, and SQL.</li>
-            <li><strong>Graduated with Distinction:</strong> Achieved a stellar 9.2 CGPA in Bsc from F.M. University, demonstrating consistent academic excellence and in-depth technical knowledge.</li>
-            <li><strong>Best Project Award:</strong> Received the "Best Project Award" in my final year for developing an innovative IoT-based solution that addressed real-world problems with efficiency and creativity.</li>
-            <li><strong>Hackathon Participant:</strong> Actively participated in multiple hackathons, solving complex challenges and developing innovative solutions under tight deadlines.</li>
-            <li><strong>Open Source Contributor:</strong> Contributed to several open-source projects, improving codebases and adding new features, which were recognized by the community.</li>
-        </ul>
-        <p>These accomplishments reflect my commitment to continuous learning and my drive to excel in the field of technology. I look forward to achieving even greater milestones in my career ahead.</p>
-    </section>
-    
-    
-    <section id="hobbies">
-        <h2>Hobbies & Interests</h2>
-        <p>In my free time, I enjoy photography, coding side projects, and exploring new technologies.</p>
-        <ul>
-            <li><strong>Photography:</strong> Capturing nature, landscapes, and candid moments with a keen eye for detail.</li>
-            <li><strong>Coding:</strong> Building innovative side projects, experimenting with new frameworks, and enhancing problem-solving skills.</li>
-            <li><strong>Traveling:</strong> Discovering new cultures, cuisines, and places to gain fresh perspectives.</li>
-            <li><strong>Gaming:</strong> Playing strategy and adventure games that challenge the mind and foster creativity.</li>
-            <li><strong>Fitness:</strong> Engaging in activities like yoga, jogging, and cycling to maintain a healthy lifestyle.</li>
-        </ul>
-    </section>
-    
-    <section id="faqs">
-        <h2>FAQs</h2>
-        <div class="faq-item">
-            <div class="faq-question">
-                <h3>What services do you provide?</h3>
-                <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-                <p>I specialize in full-stack development, server management, and project planning.</p>
-            </div>
+        <div class="experience-item">
+          <div class="experience-period">2021 - 2022</div>
+          <div class="experience-content">
+            <h3>Full Stack Developer</h3>
+            <h4>Enterprise Application Development</h4>
+            <ul>
+              <li>
+                Built responsive web applications using React.js, Spring Boot,
+                and MySQL
+              </li>
+              <li>
+                Developed RESTful APIs and implemented secure authentication
+                systems
+              </li>
+              <li>
+                Created knowledge management platforms with advanced search and
+                filtering capabilities
+              </li>
+              <li>
+                Ensured cross-browser compatibility and mobile-responsive
+                designs
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <h3>How can I contact you?</h3>
-                <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-                <p>You can reach me via email at <a href="mailto:barendrabiswal2000@gmail.com">barendrabiswal2000@gmail.com</a> or through the contact form on this website.</p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <h3>What technologies do you work with?</h3>
-                <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-                <p>I work with technologies such as Java, Spring Boot, ReactJS, HTML/CSS, JavaScript, Bootstrap, and SQL databases.</p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <h3>Do you offer freelance services?</h3>
-                <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-                <p>Yes, I am available for freelance projects. Feel free to contact me with your requirements, and we can discuss further.</p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <h3>What is your preferred method of communication?</h3>
-                <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-                <p>Email is my primary mode of communication, but I am open to video calls or chat discussions based on the project needs.</p>
-            </div>
-        </div>
-    </section>
-    
-    
-    <section id="newsletter">
-        <h2>Newsletter Signup</h2>
-        <p>Stay updated with my latest work, insights, and exclusive content delivered straight to your inbox. Subscribe below:</p>
-        <ul>
-            <li>Get updates on my latest projects and blog posts.</li>
-            <li>Receive curated tips on technology and coding best practices.</li>
-            <li>Be the first to know about upcoming tutorials and webinars.</li>
-        </ul>
-        <form>
-            <input type="email" placeholder="Enter your email" required>
-            <button type="submit">Subscribe</button>
-        </form>
-        <p class="note">*We respect your privacy and promise not to spam you.</p>
-    </section>
-    
-    
-
-    <section id="services" class="services">
-        <h2>Services</h2>
-        <div class="service-card">
-            <img src="./webdev.jpg" alt="DMart E-commerce Platform" class="project-img">
-            <h3>Web Development</h3>
-            <p>I specialize in creating responsive and interactive websites using HTML, CSS, Bootstrap, JavaScript and modern frameworks like React js</p>
-        </div>
-        <div class="service-card">
-            <img src="./backend.jpg" alt="DMart E-commerce Platform" class="project-img">
-            <h3>Backend Development</h3>
-            <p>Building scalable back-end systems with Core Java, Advanced Java, Spring Boot (Basic) and databases like SQL</p>
-        </div>
-        <div class="service-card">
-            <img src="./uixi.jpg" alt="DMart E-commerce Platform" class="project-img">
-            <h3>UI/UX Design</h3>
-            <p>Designing user-friendly interfaces with a focus on usability and aesthetics, ensuring a great experience for users.</p>
-        </div>
+      </div>
     </section>
 
     <section id="skills">
-        <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <i class="fab fa-html5"></i>
-                    <h3>HTML5</h3>
-                    <p>Mastery of semantic HTML elements for structuring web content effectively. Focus on accessibility and SEO best practices.</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-css3-alt"></i>
-                    <h3>CSS3</h3>
-                    <p>Skilled in creating responsive layouts, animations, and transitions using modern CSS techniques like Flexbox and Grid.</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-js"></i>
-                    <h3>JavaScript</h3>
-                    <p>Proficient in ES6+ features like arrow functions, promises, async/await, and DOM manipulation for interactive web applications.</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-react"></i>
-                    <h3>React</h3>
-                    <p>Experienced in building dynamic, component-based UIs with React, managing state with hooks and context, and handling routing with React Router.</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-java"></i>
-                    <h3>Java</h3>
-                    <p>Strong understanding of object-oriented programming in Java, including Java SE and Java EE for backend development and enterprise solutions.</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-bootstrap"></i>
-                    <h3>Bootstrap</h3>
-                    <p>Expert in using Bootstrap to quickly build responsive, mobile-first websites with pre-built components and grid systems.</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-cogs"></i> <!-- Using a gear icon for Spring Boot -->
-                    <h3>Spring Boot</h3>
-                    <p>Proficient in building Java-based, scalable applications with Spring Boot, utilizing its robust ecosystem for RESTful APIs and microservices.</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-database"></i> <!-- Using a database icon for SQL -->
-                    <h3>SQL</h3>
-                    <p>Experienced in querying and managing relational databases with SQL, optimizing queries, and ensuring data integrity.</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-aws"></i>
-                    <h3>AWS</h3>
-                    <p>Knowledgeable in using AWS services like EC2, S3, Lambda, and RDS for deploying, hosting, and managing cloud applications.</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card featured">
+            <i class="fab fa-react"></i>
+            <h3>React.js</h3>
+            <div class="skill-level">Expert</div>
+            <p>
+              Advanced expertise in React ecosystem including Hooks, Context
+              API, Redux/Zustand for state management, React Router, and
+              performance optimization techniques.
+            </p>
+          </div>
+          <div class="skill-card featured">
+            <i class="fab fa-js"></i>
+            <h3>JavaScript (ES6+)</h3>
+            <div class="skill-level">Expert</div>
+            <p>
+              Proficient in modern JavaScript features, async/await, promises,
+              destructuring, modules, and functional programming concepts.
+            </p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <h3>HTML5 & CSS3</h3>
+            <div class="skill-level">Advanced</div>
+            <p>
+              Semantic HTML markup, CSS Grid & Flexbox, animations, and
+              responsive design principles for modern web development.
+            </p>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Frontend Tools</h3>
+            <div class="skill-level">Advanced</div>
+            <p>
+              Webpack, Vite, npm/yarn package management, ESLint, Prettier, and
+              modern development workflows.
+            </p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-java"></i>
+            <h3>Java & Spring Boot</h3>
+            <div class="skill-level">Intermediate</div>
+            <p>
+              Backend development with Java, Spring Boot framework, RESTful API
+              design, and microservices architecture.
+            </p>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-database"></i>
+            <h3>Database Management</h3>
+            <div class="skill-level">Intermediate</div>
+            <p>
+              MySQL database design, query optimization, and data modeling for
+              web applications.
+            </p>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-phone-alt"></i>
+            <h3>Genesys Integration</h3>
+            <div class="skill-level">Advanced</div>
+            <p>
+              CTI (Computer Telephony Integration), contact center solutions,
+              and real-time communication systems integration.
+            </p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-aws"></i>
+            <h3>Cloud & DevOps</h3>
+            <div class="skill-level">Intermediate</div>
+            <p>
+              AWS services (EC2, S3, Lambda), deployment automation, and
+              application hosting with Nginx/Tomcat.
+            </p>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-code-branch"></i>
+            <h3>Version Control</h3>
+            <div class="skill-level">Advanced</div>
+            <p>
+              Git workflow management, collaborative development, code reviews,
+              and deployment strategies.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
-    
+
     <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <div class="project-card">
-            <img src="./d-mart.jpg" alt="DMart E-commerce Platform" class="project-img">
-            <p><b>DMART E-commerce Platform: (HTML, CSS & Bootstrap)</b></p>
-            <p>Built a responsive e-commerce platform with a user-friendly interface using HTML, CSS,
-                and Bootstrap. Created adaptable product display pages and seamless navigation for
-                enhanced user experience. Ensured mobile-first design and cross-browser compatibility
-                with modern web standards. Integrated interactive elements using Bootstrap
-                components for a polished look and functionality.</p>
-            <a href="https://github.com/Barendra123/Dmart_Application_Project" class="btn">View Project</a>
+      <h2>Featured Projects</h2>
+
+      <div class="project-card">
+        <img
+          src="./R.jpg"
+          alt="Knowledge Management System"
+          class="project-img"
+        />
+        <div class="project-content">
+          <h3>Enterprise Knowledge Management System</h3>
+          <div class="tech-stack">
+            <span class="tech-tag react">React.js</span>
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">REST API</span>
+          </div>
+          <p>
+            Engineered a comprehensive knowledge management platform serving
+            500+ enterprise users. Built with React.js featuring advanced search
+            functionality, real-time collaboration, and role-based access
+            control. Implemented responsive UI components with optimized
+            performance and seamless user experience.
+          </p>
+          <div class="project-highlights">
+            <h4>Key React Features Implemented:</h4>
+            <ul>
+              <li>Custom hooks for data fetching and state management</li>
+              <li>Context API for global state management</li>
+              <li>React Router for seamless navigation</li>
+              <li>Lazy loading and code splitting for performance</li>
+              <li>Real-time updates using WebSocket integration</li>
+            </ul>
+          </div>
+          <a
+            href="https://github.com/Barendra123/KnowledgeManagementSystem"
+            class="btn"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> View Code
+          </a>
         </div>
-        <div class="project-card">
-            <img src="./todolist.jpg" alt="To-Do List Application" class="project-img">
-            <p><b>To-Do List Application: (HTML, CSS(Bootstrap) & Reactjs)</b></p>
-            <p>Created a dynamic to-do list application using ReactJS, enabling users to add, edit,
-                and delete tasks, with data persistence via local storage.</p>
-            <a href="https://github.com/Barendra123/Todolist/blob/main/src/Component/TodoList.js" class="btn">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img
+          src="./crm.jpg"
+          alt="Banking CRM Application"
+          class="project-img"
+        />
+        <div class="project-content">
+          <h3>Banking CRM Platform (Inbound & Outbound)</h3>
+          <div class="tech-stack">
+            <span class="tech-tag react">React.js</span>
+            <span class="tech-tag">Genesys CTI</span>
+            <span class="tech-tag">WebSocket</span>
+            <span class="tech-tag">Spring Boot</span>
+          </div>
+          <p>
+            Developed dual-purpose CRM applications for banking operations,
+            handling both inbound customer service and outbound marketing
+            campaigns. React frontend seamlessly integrates with Genesys
+            platform for real-time call management and customer data
+            visualization.
+          </p>
+          <div class="project-highlights">
+            <h4>React Development Highlights:</h4>
+            <ul>
+              <li>
+                Built reusable component library for consistent UI patterns
+              </li>
+              <li>
+                Implemented Redux for complex state management across modules
+              </li>
+              <li>Created real-time dashboards with live data visualization</li>
+              <li>Developed custom React hooks for Genesys CTI integration</li>
+              <li>Optimized rendering performance for large datasets</li>
+            </ul>
+          </div>
+          <div class="project-links">
+            <a
+              href="https://github.com/Barendra123/CRM-IB"
+              class="btn"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i> Inbound System
+            </a>
+            <a
+              href="https://github.com/Barendra123/CRM-OB"
+              class="btn"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i> Outbound System
+            </a>
+          </div>
         </div>
-        <div class="project-card">
-            <img src="./java.jpg" alt="Buy Phone Application" class="project-img">
-            <p><b>Buy Phone: (Java)</b></p>
-            <p>Built a user-friendly Java console application that simulates the process of purchasing a
-                smartphone by guiding users through a series of choices, capturing their preferences for
-                brand, model, storage, color, and selected additional specifications. The program provides
-                real-time feedback on the device's specifications and final price.</p>
-            <a href="https://github.com/Barendra123/Buy-Phone-using-Java/blob/main/mobileproject/MobileMainClass.java" class="btn">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="./d-mart.jpg" alt="E-commerce Platform" class="project-img" />
+        <div class="project-content">
+          <h3>DMart E-commerce Platform</h3>
+          <div class="tech-stack">
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">Bootstrap</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+          <p>
+            Designed and developed a fully responsive e-commerce platform with
+            modern UI/UX principles. Features include product catalog, shopping
+            cart functionality, and mobile-first responsive design ensuring
+            optimal user experience across all devices.
+          </p>
+          <div class="project-highlights">
+            <h4>Frontend Features:</h4>
+            <ul>
+              <li>Responsive grid layouts using CSS Grid and Flexbox</li>
+              <li>Interactive product galleries and filtering systems</li>
+              <li>Bootstrap components for rapid UI development</li>
+              <li>Cross-browser compatibility and accessibility compliance</li>
+            </ul>
+          </div>
+          <a
+            href="https://github.com/Barendra123/Dmart_Application_Project"
+            class="btn"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> View Project
+          </a>
         </div>
-        <div class="project-card">
-            <img src="./book.jpg" alt="Bookstore Analysis" class="project-img">
-            <p><b>Bookstore Analysis: (SQL)</b></p>
-            <p>Conducted comprehensive data analysis on bookstore inventory using SQL to identify 
-                sales trends, optimizing stock levels through detailed reporting.</p>
-            <a href="https://github.com/Barendra123/BookstoreAnalysis/blob/main/BookstoreAnalysis.sql" class="btn">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img
+          src="./todolist.jpg"
+          alt="React Todo Application"
+          class="project-img"
+        />
+        <div class="project-content">
+          <h3>Advanced React Todo Application</h3>
+          <div class="tech-stack">
+            <span class="tech-tag react">React.js</span>
+            <span class="tech-tag">Hooks</span>
+            <span class="tech-tag">Local Storage</span>
+            <span class="tech-tag">CSS3</span>
+          </div>
+          <p>
+            Interactive todo management application showcasing modern React
+            development patterns. Features include task CRUD operations,
+            priority management, filtering capabilities, and persistent data
+            storage with clean, intuitive user interface.
+          </p>
+          <div class="project-highlights">
+            <h4>React Implementation:</h4>
+            <ul>
+              <li>useState and useEffect hooks for state management</li>
+              <li>Custom hooks for localStorage persistence</li>
+              <li>Component composition and prop drilling optimization</li>
+              <li>Conditional rendering and dynamic styling</li>
+            </ul>
+          </div>
+          <a
+            href="https://github.com/Barendra123/Todolist/blob/main/src/Component/TodoList.js"
+            class="btn"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> View Code
+          </a>
         </div>
+      </div>
     </section>
-    
+
+    <section id="services" class="services">
+      <h2>Professional Services</h2>
+      <div class="service-card">
+        <img src="./webdev.jpg" alt="React Development" class="project-img" />
+        <h3>React Application Development</h3>
+        <p>
+          Specialized in building modern, scalable React applications with focus
+          on performance, user experience, and maintainable code architecture.
+          Expert in component design patterns, state management, and React
+          ecosystem tools.
+        </p>
+      </div>
+      <div class="service-card">
+        <img
+          src="./backend.jpg"
+          alt="Full Stack Development"
+          class="project-img"
+        />
+        <h3>Full Stack Development</h3>
+        <p>
+          End-to-end web application development combining React frontends with
+          robust Java Spring Boot backends. Experienced in API design, database
+          integration, and deployment strategies for enterprise applications.
+        </p>
+      </div>
+      <div class="service-card">
+        <img src="./uixi.jpg" alt="UI/UX Implementation" class="project-img" />
+        <h3>UI/UX Implementation</h3>
+        <p>
+          Transform design mockups into pixel-perfect, responsive React
+          components. Focus on accessibility, cross-browser compatibility, and
+          modern web standards to deliver exceptional user experiences.
+        </p>
+      </div>
+    </section>
+
+    <section id="achievements">
+      <h2>Professional Achievements</h2>
+      <div class="achievements-grid">
+        <div class="achievement-item">
+          <i class="fas fa-code"></i>
+          <h3>React Expertise Recognition</h3>
+          <p>
+            Recognized for developing high-performance React applications that
+            improved user engagement by 35% and reduced load times significantly
+            in enterprise banking systems.
+          </p>
+        </div>
+        <div class="achievement-item">
+          <i class="fas fa-certificate"></i>
+          <h3>Java Full Stack Certification</h3>
+          <p>
+            Successfully completed comprehensive full-stack development
+            certification with specialization in React.js, Spring Boot, and
+            modern web technologies.
+          </p>
+        </div>
+        <div class="achievement-item">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Academic Excellence</h3>
+          <p>
+            Graduated with distinction (9.2 CGPA) in Electronics and
+            Communication Engineering from F.M. University, demonstrating strong
+            analytical and technical skills.
+          </p>
+        </div>
+        <div class="achievement-item">
+          <i class="fas fa-trophy"></i>
+          <h3>Innovation Award</h3>
+          <p>
+            Received "Best Project Award" for developing an innovative IoT-based
+            solution with React dashboard interface addressing real-world
+            automation challenges.
+          </p>
+        </div>
+        <div class="achievement-item">
+          <i class="fas fa-users"></i>
+          <h3>Open Source Contributions</h3>
+          <p>
+            Active contributor to React and JavaScript open-source projects,
+            with multiple accepted pull requests improving community tools and
+            libraries.
+          </p>
+        </div>
+        <div class="achievement-item">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Problem Solving</h3>
+          <p>
+            Participated in multiple hackathons focusing on React-based
+            solutions, demonstrating ability to rapidly prototype and deliver
+            functional applications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <h2>Client Testimonials</h2>
+      <div class="testimonials-container">
+        <div class="testimonial">
+          <p class="quote">
+            "Barendra's React expertise transformed our customer service
+            platform. His attention to detail and performance optimization
+            delivered exceptional results."
+          </p>
+          <p class="author">- Technical Lead, Banking Solutions</p>
+        </div>
+        <div class="testimonial">
+          <p class="quote">
+            "Outstanding React developer who consistently delivers clean,
+            maintainable code. His integration work with our legacy systems was
+            seamless."
+          </p>
+          <p class="author">- Project Manager, Enterprise Client</p>
+        </div>
+        <div class="testimonial">
+          <p class="quote">
+            "Barendra's ability to translate complex requirements into intuitive
+            React interfaces exceeded our expectations. Highly recommend for
+            frontend development."
+          </p>
+          <p class="author">- Product Owner, Financial Services</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog">
+      <h2>Technical Blog</h2>
+      <article>
+        <h3>
+          React Performance Optimization: Advanced Techniques for Enterprise
+          Applications
+        </h3>
+        <p>
+          Explore advanced React optimization strategies including memo,
+          useMemo, useCallback, code splitting, and lazy loading. Learn how to
+          build performant applications that scale effectively for enterprise
+          use cases with thousands of concurrent users.
+        </p>
+        <a href="#" class="read-more">Read More</a>
+      </article>
+      <article>
+        <h3>State Management in React: Redux vs Context API vs Zustand</h3>
+        <p>
+          Comprehensive comparison of React state management solutions.
+          Understand when to use each approach, implementation patterns, and
+          performance considerations for different application architectures and
+          team sizes.
+        </p>
+        <a href="#" class="read-more">Read More</a>
+      </article>
+      <article>
+        <h3>
+          Building Real-time React Applications with WebSocket Integration
+        </h3>
+        <p>
+          Step-by-step guide to implementing WebSocket connectivity in React
+          applications. Cover real-time data synchronization, connection
+          management, and building responsive interfaces for live communication
+          systems.
+        </p>
+        <a href="#" class="read-more">Read More</a>
+      </article>
+      <article>
+        <h3>Modern React Development Workflow: Tools and Best Practices</h3>
+        <p>
+          Essential tools and methodologies for professional React development
+          including TypeScript integration, testing strategies with Jest and
+          React Testing Library, and CI/CD pipeline setup for React
+          applications.
+        </p>
+        <a href="#" class="read-more">Read More</a>
+      </article>
+    </section>
+
+    <section id="faqs">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <div class="faq-question">
+          <h3>What React services do you specialize in?</h3>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <p>
+            I specialize in React application development, component library
+            creation, performance optimization, legacy system migration to
+            React, and real-time application development with WebSocket
+            integration.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <h3>Do you work with React frameworks like Next.js?</h3>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <p>
+            Yes, I have experience with React frameworks including Next.js for
+            server-side rendering, static site generation, and full-stack React
+            applications. I can help choose the right framework based on your
+            project requirements.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <h3>What's your approach to React application architecture?</h3>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <p>
+            I follow component-driven development with emphasis on reusability,
+            maintainability, and performance. I use modern patterns like custom
+            hooks, compound components, and proper state management strategies
+            tailored to project scale and requirements.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <h3>How do you ensure React application performance?</h3>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <p>
+            I implement performance optimization techniques including
+            React.memo, useMemo, useCallback, code splitting, lazy loading,
+            virtual scrolling for large lists, and bundle optimization to ensure
+            smooth user experiences.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <h3>What's your experience with React testing?</h3>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <p>
+            I write comprehensive tests using Jest and React Testing Library,
+            focusing on user behavior testing, component integration testing,
+            and maintaining high test coverage for robust, reliable
+            applications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <h2>Stay Updated</h2>
+      <p>
+        Subscribe to receive insights on React development, modern frontend
+        techniques, and industry best practices directly in your inbox.
+      </p>
+      <div class="newsletter-benefits">
+        <ul>
+          <li>🚀 Latest React development tips and tricks</li>
+          <li>📚 Exclusive tutorials on advanced React patterns</li>
+          <li>🔧 Behind-the-scenes project development insights</li>
+          <li>📈 Industry trends and technology updates</li>
+        </ul>
+      </div>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email address" required />
+        <button type="submit">Subscribe Now</button>
+      </form>
+      <p class="note">*Privacy guaranteed. Unsubscribe anytime.</p>
+    </section>
+
     <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <p>If you have any questions or would like to collaborate, feel free to reach out!</p>
-        <div class="contact-details">
-            <p><strong>Email:</strong> <a href="mailto:barendrabiswal2000@gmail.com">barendrabiswal2000@gmail.com</a></p>
-            <p><strong>Phone:</strong> <a href="tel:+919019076146">+91 9019076146</a></p>
-            <p><strong>Address:</strong> Bangalore, Hebbal, Kempapura</p>
+      <h2>Let's Build Something Amazing Together</h2>
+      <p>
+        Ready to bring your React project to life? Whether you need a new
+        application, performance optimization, or technical consultation, I'm
+        here to help.
+      </p>
+      <div class="contact-details">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <strong>Email</strong>
+            <a href="mailto:barendrabiswal2000@gmail.com"
+              >barendrabiswal2000@gmail.com</a
+            >
+          </div>
         </div>
-        <div class="buttons">
-            <a href="mailto:barendrabiswal2000@gmail.com" class="btn">Email Me</a>
-            <a href="https://www.google.com/maps/place/Hebbal,+Bangalore/" target="_blank" class="btn">View on Map</a>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <strong>Phone</strong>
+            <a href="tel:+919019076146">+91 9019076146</a>
+          </div>
         </div>
-    </section>    
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <strong>Location</strong>
+            <span>Bangalore, Karnataka, India</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-clock"></i>
+          <div>
+            <strong>Availability</strong>
+            <span>Open for freelance and full-time opportunities</span>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <a href="mailto:barendrabiswal2000@gmail.com" class="btn primary">
+          <i class="fas fa-envelope"></i> Send Email
+        </a>
+        <a
+          href="https://www.linkedin.com/in/barendra-biswal-584a182b1/"
+          target="_blank"
+          class="btn"
+        >
+          <i class="fab fa-linkedin"></i> Connect on LinkedIn
+        </a>
+        <a
+          href="./resume/Barendra_biswal.pdf"
+          download="Barendra_Biswal_Resume.pdf"
+          class="btn"
+        >
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+    </section>
 
     <footer class="footer">
-        <p>&copy; 2024 MyPortfolio. All rights reserved.</p>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Barendra Biswal</h4>
+          <p>React Developer & Full Stack Engineer</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Technologies</h4>
+          <ul>
+            <li>React.js & Redux</li>
+            <li>JavaScript ES6+</li>
+            <li>Spring Boot</li>
+            <li>MySQL & REST APIs</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2024 Barendra Biswal. All rights reserved. | React Developer
+          Portfolio
+        </p>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
